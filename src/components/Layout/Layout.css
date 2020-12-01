@@ -1,0 +1,17 @@
+.Layout {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.right {
+  width: calc(100% - 250px);
+  height: 100vh;
+}
+.right .content-app {
+  width: 100%;
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
